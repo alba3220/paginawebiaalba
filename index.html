@@ -1,0 +1,225 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd%22">
+<html>
+<body id="top">
+<head>
+	<meta charset="UTF-8">
+	<title>Inteligencia Artificial</title>
+<link href="icon.ico" rel="image" /><!--para insertar un icono-->
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="animacion.css" rel="stylesheet" type="text/css"> 
+ <script src="processing.js"></script><!-- para insertar un processing-->
+<script type="text/processing" data-processing-target="pjsCanvas">
+void setup(){
+  size(280,70);
+  background(#2E4683);
+  textSize(50);
+}
+void draw(){
+  background(#2E4683);
+  int h= hour(1);
+  int m=minute();
+  int s=second();
+  text(h+":"+nf(m,2)+":"+nf(s,2),30,50);
+}
+</script>
+</head>
+	<center><header><big><big>TEMA DE INTELIGENCIA ARTIFICIAL</big></big></header></center>
+	 
+	
+<canvas id="pjsCanvas">h</canvas>
+
+
+
+
+<font color="DodgerBlue"><big><big><big><big>ÍNDICE</font></big></big></big></big>
+
+<big><big><ul> <li><a href="#definiciones">Definiciones de IA</a></li>
+    <li><a href="#tipos">Tipos de IA</a></li>
+    <li><a href="#historia">Historia de la IA</a></li>
+    <li><a href="#aplicaciones">Aplicaciones de la IA</a></li>
+    <li><a href="#FuturoeinconvenientesdelaIA">Futuro e inconvenientes de la IA</a></li>
+    <li><a href="#enlaces">Enlaces de interés</a></li>
+	<br><br><div id="aviso"><font color="white">NOS GUSTA LA IA </div></font> 
+<body>
+<center> <BIG><B><I><U>Canción<BR></B></I></U></BIG></CENTER>
+		<center>
+		<br>
+		<audio src="cancion.mp4" controls> </audio> 
+		<br></center>
+<h1 id="definiciones"><font color="Navy"><big><big><big><big>DEFINICIONES IMPORTANTES SOBRE LOS VOCABLOS MÁS USUALES SOBRE LA IA.</font></big></big></big></big></h1>
+	<big><big><ol type="1">
+     <li value= "1"><b>Inteligencia Artificial (IA):</b> Conjunto de técnicas y algoritmos que permiten a las máquinas realizar tareas que normalmente requieren inteligencia humana. </li>
+  <li><b>Aprendizaje automático (Machine Learning):</b> Subcampo de la IA que permite que las máquinas aprendan y mejoren su rendimiento a partir de datos sin ser programadas explícitamente.</li>
+  <li><b>Algoritmo:</b> Conjunto de instrucciones que siguen las máquinas para resolver problemas o realizar tareas.</li>
+  <li><b>IA débil:</b> IA diseñada para realizar tareas específicas, sin conciencia ni emociones.</li>
+  <li><b>IA fuerte:</b> IA que simula la inteligencia humana en su totalidad, con capacidad de razonamiento general y comprensión.</li>
+  <li><b>Robótica:</b> Rama de la ingeniería y la IA que crea robots capaces de realizar tareas de manera autónoma.</li>
+  <li><b>Agentes inteligentes:</b> Sistemas que perciben su entorno, toman decisiones y actúan de forma autónoma para cumplir un objetivo.</li>
+  <li><b>IA predictiva:</b> Uso de algoritmos de IA para hacer predicciones basadas en datos pasados.</li>
+  <li><b>Ética en la IA:</b> Estudio de los problemas morales y sociales derivados del uso de la IA.</li>
+  <li><b>Chatbots:</b> Programas que simulan conversaciones humanas, utilizando procesamiento de lenguaje natural.</li>
+  <li><b>Automatización de Procesos:</b> Uso de IA para automatizar tareas repetitivas en diferentes sectores.</li>
+  </OL></big></big>
+ <h1 id="tipos"> <br><br><br><center> <font color="Navy"><big><big><big><big>TIPOS DE INTELIGENCIA ARTIFICIAL(según su capacidad)  </big></font></big></big></big></center></h1>
+  <center>
+    <big><big><table class= "tabla1"><table border= "1">
+	<caption> </caption>
+	   <tr>
+			<td> <b>TIPO</b></td>
+			<td> <b>FUNCIÓN</b></td>
+			<td> <b>EJEMPLO</b></td>
+		</tr>
+		<tr>
+			<td><big> <b><a href= "https://www.iebschool.com/hub/que-es-la-inteligencia-artificial-debil-ani-definicion-aplicaciones-y-usos/" target="_blank">IA estrecha o débil (ANI)</a></big></b></td>
+			<td> Realiza tareas específicas.</td>
+			<td> Siri, ChatGPT, traductores</td>
+			
+		</tr>
+		<tr>
+			<td><big> <b><a href= "https://aws.amazon.com/es/what-is/artificial-general-intelligence/" target="_blank">IA general (AGI)</a></big></b> </td>
+			<td>Podría realizar cualquier tarea intelectual humana.</td>
+			<td>Aún no existe.</td>
+		</tr>
+		<tr>
+			<td><big> <b><a href= "https://www.ibm.com/es-es/think/topics/artificial-superintelligence" target="_blank">Superinteligencia artificial (ASI)</a></big></b> </td>
+			<td> Superaría la inteligencia humana en prácticamente todos los ámbitos.	</td>
+			<td>Es hipotética. </td>
+		</tr>
+		</table></big></big>
+		
+		</center>
+		
+	
+		<h1 id="historia"><br><br> <font color="Navy"><big><big><big><big>HISTORIA DE LA IA </font></big></big></big></big></h1>
+		<big><big><p>La inteligencia artificial (IA) es una tecnología que permite a las máquinas realizar 
+		tareas que normalmente necesitan inteligencia humana, como aprender, resolver problemas,
+		reconocer imágenes y comunicarse. Sus orígenes se remontan a mediados del siglo XX, 
+		cuando los científicos comenzaron a investigar si los ordenadores podían imitar el 
+		pensamiento humano.
+<p>
+En 1950, el matemático Alan Turing planteó la posibilidad de que las máquinas pudieran pensar.
+ Más tarde, en 1956, se utilizó por primera vez el término «inteligencia artificial» durante 
+ una conferencia en Estados Unidos. A partir de ese momento, comenzaron a desarrollarse programas 
+ capaces de resolver problemas y mantener conversaciones sencillas.
+<p>
+Con el paso de los años, la inteligencia artificial fue mejorando gracias a los avances
+ tecnológicos y al desarrollo de ordenadores más potentes. En 1997, la computadora Deep
+ Blue consiguió derrotar al campeón mundial de ajedrez Garry Kasparov. En 2016, otro gran 
+ avance tuvo lugar cuando AlphaGo venció a uno de los mejores jugadores del mundo de Go.
+<p>
+En noviembre de 2022 se lanzó ChatGPT, que permitió que millones de personas pudieran 
+utilizar la inteligencia artificial de una forma sencilla. Actualmente, esta tecnología
+ es capaz de crear textos, imágenes y vídeos, traducir idiomas y ayudar en diferentes 
+ tareas. Además, se utiliza en campos como la educación, la medicina, la ciencia y el transporte.
+<p>
+En conclusión, la inteligencia artificial ha evolucionado mucho desde sus comienzos y se
+ ha convertido en una de las tecnologías más importantes de la actualidad. Su desarrollo 
+ continúa avanzando y seguirá teniendo una gran influencia en nuestra vida cotidiana y 
+ en el futuro de la sociedad.
+ <br><br><BIG><BIG><B><I><U><font color="SteelBlue">Vídeo<BR></B></I></U></BIG></BIG>
+<video src= "video.mp4" controls> </video>
+
+ <center> <BIG><BIG><B><I><U><font color="SteelBlue">IMAGEN<BR></B></I></U></BIG></BIG></CENTER>
+	<center><img src= "imagen.png" alt= "imagen" border= "1" align= "top"
+	width= "400" height="40%"></img></center>
+
+	<br><br><br>
+	  <h1 id="aplicaciones"><center> <font color="Navy"><big><big><big><big>APLICACIONES DE LA IA</big></font></big></big></big></center></h1>
+</center>
+
+<ol>
+    <li>
+        <b>Medicina:</b>
+        La IA ayuda a los médicos a detectar enfermedades,
+        analizar pruebas y encontrar tratamientos.
+    </li>
+
+    <li>
+        <b>Educación:</b>
+        Ayuda a los estudiantes a aprender, resolver dudas
+        y realizar actividades.
+    </li>
+
+    <li>
+        <b>Transporte:</b>
+        Se utiliza para desarrollar coches autónomos
+        y mejorar el tráfico.
+    </li>
+
+    <li>
+        <b>Comercio:</b>
+        Recomienda productos según los gustos de los clientes
+        y ayuda a las tiendas a organizar sus ventas.
+    </li>
+
+    <li>
+        <b>Seguridad:</b>
+        Puede detectar movimientos extraños y ayudar
+        a proteger sistemas informáticos.
+    </li>
+
+    <li>
+        <b>Entretenimiento:</b>
+        Se utiliza para recomendar películas, música,
+        videojuegos y crear imágenes.
+    </li>
+
+    <li>
+        <b>Industria:</b>
+        Ayuda a las fábricas a controlar máquinas,
+        fabricar productos y detectar errores.
+    </li>
+
+    <li>
+        <b>Comunicación:</b>
+        Permite traducir idiomas, responder mensajes
+        y utilizar asistentes virtuales.
+    </li>
+	<center> <BIG><BIG><B><I><U><font color="SteelBlue">Centro de Estudio de IA en Madrid<BR></B></I></U></BIG></BIG></CENTER>
+	<center><iframe src="https://www.google.com/maps/embed?pb=!4v1794393972971!6m8!1m7!1so_LFm7IyQT_VR54UOVyFvQ!2m2!1d40.38921422814171!2d-3.629321904957348!3f255.98731924786105!4f-2.801679542779212!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></center>
+</ol>
+	<h1 id="futuro"> <center> <font color="Navy"><big><big><big>FUTURO E INCONVENIENTES DE LA IA</big></font></big></big></center></h1>
+	 <big><big><ol type= "a"><!--aqui se colocaran por defecto en orden alfabetico--></big></big>
+   
+	 <div id="html"><img id="html" src="etiqueta.png"> </div>
+  <h1>Futuro de la inteligencia artificial</h1>
+
+    <ol>
+        <font color="black"><li>Ayudará a los médicos a detectar enfermedades.</li>
+        <li>Facilitará el aprendizaje de los estudiantes.</li>
+        <li>Creará coches que conduzcan solos.</li>
+        <li>Hará algunos trabajos más rápidos.</li>
+        <li>Ayudará a crear nuevos inventos.</li>
+        <li>Estará presente en más aparatos y hogares.</li>
+        <li>Ayudará a resolver problemas difíciles.</li></font>
+    </ol>
+
+    <h1>Inconvenientes de la inteligencia artificial</h1>
+
+    <ol>
+       <font color="black"> <li>Puede hacer que algunos trabajos desaparezcan.</li>
+        <li>Puede crear información falsa.</li>
+        <li>Puede cometer errores.</li>
+        <li>Puede poner en peligro la privacidad.</li>
+        <li>Puede crear dependencia de la tecnología.</li>
+        <li>Puede hacer que las personas piensen menos por sí mismas.</li>
+        <li>No todas las personas tendrán acceso a ella.</li></font>
+		
+    </ol>
+  
+<center>
+   
+
+  </OL>
+  <center>
+</body>
+<footer>
+
+    <h3>PÁGINA WEB SOBRE INTELIGENCIA ARTIFICIAL</h3>
+
+
+
+    <a href="#top"><font color="white">Volver al principio</a></font>
+
+</footer>
+</html>

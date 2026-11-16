@@ -1,0 +1,141 @@
+
+header{
+    color:#FFFFFF;
+    background-color:#2E4683;
+    text-align:center;
+    font-size:30px;
+}
+
+body{
+    color:#202C40;
+    background-color:#DCE8F7;
+}
+
+p{
+    font-family:"tahoma";
+    font-size:20px;
+    color:#202C40;
+    text-align:justify;
+}
+
+footer{
+    color:#FFFFFF;
+    background-color:#405C96;
+    text-align:center;
+    font-size:30px;
+}
+
+h1{
+    color:#2E4683;
+    text-align:center;
+    font-size:28px;
+}
+
+h2{
+    color:#2E4683;
+    text-align:center;
+}
+
+ol{
+    font-family:"tahoma";
+    font-size:20px;
+    color:#202C40;
+}
+
+ul{
+    font-family:"tahoma";
+    font-size:20px;
+    color:#202C40;
+}
+
+table{
+    background-color:#EDF4FC;
+    border-color:#5278B5;
+    text-align:center;
+    font-size:18px;
+}
+
+td{
+    padding:10px;
+}
+
+a{
+    color:#2456A0;
+}
+
+img{
+    border:3px solid #5278B5;
+}
+
+.vamosaensayar{
+    font-family:"Pacifico";
+    font-size:40px;
+    font-style:sans serif;
+    font-weight:bold;
+    font-variant:small-caps;
+    color:#2E4683;
+    text-align:center;
+    text-decoration:underline wavy;
+    text-shadow:2px 2px 4px #191970;
+    line-height:1,5;
+}
+
+#menuhorizontal ul {
+    border-bottom-width:50px;
+    border-bottom-style:solid;
+    border-bottom-color:#A9C5E8;
+}
+
+#menuhorizontal ul li {
+    display:inline;
+    padding:20px 50px;
+    margin:50px;
+    background-color:#5278B5;
+    color:white;
+    font-family:"Comic Sans MS";
+    font-size:25px;
+}
+
+#menuhorizontal ul li:hover {
+    background-color:#1D355F;
+    cursor:pointer;
+}
+
+#menuhorizontal ul li a {
+    text-decoration:none;
+    color:inherit;
+}
+
+#menuD a{
+    text-decoration:none;
+    color:inherit;
+}
+
+#menuD ul li{
+    width:100px;
+    height:25px;
+    display:inline-block;
+    padding:2px 7px;
+    margin:5px;
+    background-color:#5278B5;
+    color:white;
+    text-align:center;
+    font-family:"comic sans ms";
+    font-size:16px;
+    position:relative;
+}
+
+#menuD ul li:hover{
+    background-color:#A9C5E8;
+    color:#1D355F;
+}
+
+#menuD li>ul{
+    display:none;
+}
+
+#menuD li:hover>ul{
+    display:inline-block;
+    position:absolute;
+}
+
